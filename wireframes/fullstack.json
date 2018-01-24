@@ -1,0 +1,429 @@
+{
+    "mockup": {
+        "controls": {
+            "control": [
+                {
+                    "ID": "0",
+                    "typeID": "BrowserWindow",
+                    "zOrder": "0",
+                    "w": "812",
+                    "h": "582",
+                    "measuredW": "450",
+                    "measuredH": "400",
+                    "x": "40",
+                    "y": "40"
+                },
+                {
+                    "ID": "2",
+                    "typeID": "Paragraph",
+                    "zOrder": "1",
+                    "w": "117",
+                    "h": "19",
+                    "measuredW": "275",
+                    "measuredH": "80",
+                    "x": "335",
+                    "y": "302",
+                    "properties": {
+                        "text": "https://github.com/"
+                    }
+                },
+                {
+                    "ID": "3",
+                    "typeID": "TextInput",
+                    "zOrder": "2",
+                    "w": "105",
+                    "measuredW": "73",
+                    "measuredH": "27",
+                    "x": "452",
+                    "y": "297",
+                    "properties": {
+                        "text": "username"
+                    }
+                },
+                {
+                    "ID": "5",
+                    "typeID": "Title",
+                    "zOrder": "3",
+                    "measuredW": "91",
+                    "measuredH": "22",
+                    "x": "60",
+                    "y": "130",
+                    "properties": {
+                        "text": "githubstars",
+                        "size": "18"
+                    }
+                },
+                {
+                    "ID": "8",
+                    "typeID": "BrowserWindow",
+                    "zOrder": "6",
+                    "w": "812",
+                    "h": "582",
+                    "measuredW": "450",
+                    "measuredH": "400",
+                    "x": "874",
+                    "y": "40"
+                },
+                {
+                    "ID": "9",
+                    "typeID": "ProgressBar",
+                    "zOrder": "7",
+                    "measuredW": "100",
+                    "measuredH": "20",
+                    "x": "1230",
+                    "y": "302",
+                    "properties": {
+                        "indeterminate": "true",
+                        "style": "thick"
+                    }
+                },
+                {
+                    "ID": "10",
+                    "typeID": "Paragraph",
+                    "zOrder": "8",
+                    "h": "27",
+                    "measuredW": "275",
+                    "measuredH": "80",
+                    "x": "1142",
+                    "y": "338",
+                    "properties": {
+                        "text": "Getting the repositories list from Github...",
+                        "align": "center"
+                    }
+                },
+                {
+                    "ID": "14",
+                    "typeID": "Title",
+                    "zOrder": "9",
+                    "measuredW": "91",
+                    "measuredH": "22",
+                    "x": "900",
+                    "y": "130",
+                    "properties": {
+                        "text": "githubstars",
+                        "size": "18"
+                    }
+                },
+                {
+                    "ID": "15",
+                    "typeID": "BrowserWindow",
+                    "zOrder": "10",
+                    "w": "812",
+                    "h": "582",
+                    "measuredW": "450",
+                    "measuredH": "400",
+                    "x": "40",
+                    "y": "653"
+                },
+                {
+                    "ID": "16",
+                    "typeID": "Title",
+                    "zOrder": "11",
+                    "measuredW": "91",
+                    "measuredH": "22",
+                    "x": "66",
+                    "y": "743",
+                    "properties": {
+                        "text": "githubstars",
+                        "size": "18"
+                    }
+                },
+                {
+                    "ID": "18",
+                    "typeID": "Link",
+                    "zOrder": "12",
+                    "measuredW": "31",
+                    "measuredH": "21",
+                    "x": "785",
+                    "y": "745",
+                    "properties": {
+                        "text": "home"
+                    }
+                },
+                {
+                    "ID": "19",
+                    "typeID": "SearchBox",
+                    "zOrder": "13",
+                    "w": "235",
+                    "measuredW": "120",
+                    "measuredH": "25",
+                    "x": "66",
+                    "y": "782",
+                    "properties": {
+                        "text": "search by tag"
+                    }
+                },
+                {
+                    "ID": "20",
+                    "typeID": "DataGrid",
+                    "zOrder": "14",
+                    "w": "756",
+                    "h": "359",
+                    "measuredW": "734",
+                    "measuredH": "411",
+                    "x": "68",
+                    "y": "825",
+                    "properties": {
+                        "text": "Repository, Description, Language, Tags,\n[kubernetes], Production-Grade Container Scheduling and Management,go,,[edit]\n[django ], The Web framework for perfectionists with deadlines., python,, [edit]\n[DVWA ], Damn Vulnerable Web Application (DVWA), php,, [edit]\n[etcd ], Distributed reliable key-value store for the most critical data of a distributed system, go,, [edit]\n[jest ], Delightful JavaScript Testing., javascript,, [edit]\n[easymail ], Easy way to install a mail server., shell,, [edit]\n[parity ], Fast light robust Ethereum implementation., rust,, [edit]\n[posthere.io ], Debug all the POST requests!, clojure,, [edit]\n[nixnote2 ], Nixnote - A clone of Evernote for Linux., c++,, [edit]\n[portainer ], Simple management UI for Docker, html,, [edit]\n[moshi ], A modern JSON library for Android and Java., java,, [edit]\n\n"
+                    }
+                },
+                {
+                    "ID": "21",
+                    "typeID": "BrowserWindow",
+                    "zOrder": "15",
+                    "w": "812",
+                    "h": "582",
+                    "measuredW": "450",
+                    "measuredH": "400",
+                    "x": "874",
+                    "y": "653"
+                },
+                {
+                    "ID": "22",
+                    "typeID": "Title",
+                    "zOrder": "16",
+                    "measuredW": "91",
+                    "measuredH": "22",
+                    "x": "900",
+                    "y": "743",
+                    "properties": {
+                        "text": "githubstars",
+                        "size": "18"
+                    }
+                },
+                {
+                    "ID": "23",
+                    "typeID": "Link",
+                    "zOrder": "17",
+                    "measuredW": "31",
+                    "measuredH": "21",
+                    "x": "1619",
+                    "y": "745",
+                    "properties": {
+                        "text": "home"
+                    }
+                },
+                {
+                    "ID": "24",
+                    "typeID": "SearchBox",
+                    "zOrder": "18",
+                    "w": "235",
+                    "measuredW": "120",
+                    "measuredH": "25",
+                    "x": "900",
+                    "y": "782",
+                    "properties": {
+                        "text": "search by tag"
+                    }
+                },
+                {
+                    "ID": "25",
+                    "typeID": "DataGrid",
+                    "zOrder": "19",
+                    "w": "756",
+                    "h": "359",
+                    "measuredW": "734",
+                    "measuredH": "411",
+                    "x": "902",
+                    "y": "825",
+                    "properties": {
+                        "text": "Repository, Description, Language, Tags,\n[kubernetes], Production-Grade Container Scheduling and Management,go,,[edit]\n[django ], The Web framework for perfectionists with deadlines., python,, [edit]\n[DVWA ], Damn Vulnerable Web Application (DVWA), php,, [edit]\n[etcd ], Distributed reliable key-value store for the most critical data of a distributed system, go,, [edit]\n[jest ], Delightful JavaScript Testing., javascript,, [edit]\n[easymail ], Easy way to install a mail server., shell,, [edit]\n[parity ], Fast light robust Ethereum implementation., rust,, [edit]\n[posthere.io ], Debug all the POST requests!, clojure,, [edit]\n[nixnote2 ], Nixnote - A clone of Evernote for Linux., c++,, [edit]\n[portainer ], Simple management UI for Docker, html,, [edit]\n[moshi ], A modern JSON library for Android and Java., java,, [edit]\n\n"
+                    }
+                },
+                {
+                    "ID": "27",
+                    "typeID": "ModalScreen",
+                    "zOrder": "20",
+                    "w": "812",
+                    "h": "481",
+                    "measuredW": "318",
+                    "measuredH": "240",
+                    "x": "874",
+                    "y": "727"
+                },
+                {
+                    "ID": "29",
+                    "typeID": "Canvas",
+                    "zOrder": "21",
+                    "w": "333",
+                    "h": "111",
+                    "measuredW": "100",
+                    "measuredH": "70",
+                    "x": "1113",
+                    "y": "866"
+                },
+                {
+                    "ID": "30",
+                    "typeID": "Paragraph",
+                    "zOrder": "22",
+                    "w": "157",
+                    "h": "18",
+                    "measuredW": "275",
+                    "measuredH": "80",
+                    "x": "1129",
+                    "y": "882",
+                    "properties": {
+                        "text": "edit tags for kubernetes"
+                    }
+                },
+                {
+                    "ID": "31",
+                    "typeID": "TextInput",
+                    "zOrder": "23",
+                    "w": "301",
+                    "measuredW": "100",
+                    "measuredH": "27",
+                    "x": "1129",
+                    "y": "902",
+                    "properties": {
+                        "text": "devops, docker"
+                    }
+                },
+                {
+                    "ID": "32",
+                    "typeID": "ButtonBar",
+                    "zOrder": "24",
+                    "measuredW": "124",
+                    "measuredH": "27",
+                    "x": "1217",
+                    "y": "938",
+                    "properties": {
+                        "text": "Save, Cancel"
+                    }
+                },
+                {
+                    "ID": "33",
+                    "typeID": "BrowserWindow",
+                    "zOrder": "25",
+                    "w": "812",
+                    "h": "582",
+                    "measuredW": "450",
+                    "measuredH": "400",
+                    "x": "40",
+                    "y": "1261"
+                },
+                {
+                    "ID": "34",
+                    "typeID": "Title",
+                    "zOrder": "26",
+                    "measuredW": "91",
+                    "measuredH": "22",
+                    "x": "66",
+                    "y": "1351",
+                    "properties": {
+                        "text": "githubstars",
+                        "size": "18"
+                    }
+                },
+                {
+                    "ID": "35",
+                    "typeID": "Link",
+                    "zOrder": "27",
+                    "measuredW": "31",
+                    "measuredH": "21",
+                    "x": "785",
+                    "y": "1353",
+                    "properties": {
+                        "text": "home"
+                    }
+                },
+                {
+                    "ID": "36",
+                    "typeID": "SearchBox",
+                    "zOrder": "28",
+                    "w": "235",
+                    "measuredW": "120",
+                    "measuredH": "25",
+                    "x": "66",
+                    "y": "1390",
+                    "properties": {
+                        "text": "devops"
+                    }
+                },
+                {
+                    "ID": "37",
+                    "typeID": "DataGrid",
+                    "zOrder": "29",
+                    "w": "756",
+                    "h": "359",
+                    "measuredW": "648",
+                    "measuredH": "111",
+                    "x": "68",
+                    "y": "1433",
+                    "properties": {
+                        "text": "Repository, Description, Language, Tags,\n[kubernetes], Production-Grade Container Scheduling and Management,go,#devops #docker,[edit]\n\n"
+                    }
+                },
+                {
+                    "ID": "40",
+                    "typeID": "__group__",
+                    "zOrder": "4",
+                    "measuredW": "150",
+                    "measuredH": "150",
+                    "w": "150",
+                    "h": "150",
+                    "x": "427",
+                    "y": "401",
+                    "properties": {
+                        "controlName": "Button Selected"
+                    }
+                },
+                {
+                    "ID": "41",
+                    "typeID": "__group__",
+                    "zOrder": "5",
+                    "measuredW": "135",
+                    "measuredH": "30",
+                    "w": "135",
+                    "h": "30",
+                    "x": "378",
+                    "y": "340",
+                    "properties": {
+                        "controlName": "Button - Right Icon"
+                    },
+                    "children": {
+                        "controls": {
+                            "control": [
+                                {
+                                    "ID": "0",
+                                    "typeID": "Button",
+                                    "zOrder": "0",
+                                    "w": "135",
+                                    "h": "30",
+                                    "measuredW": "116",
+                                    "measuredH": "27",
+                                    "x": "0",
+                                    "y": "0",
+                                    "properties": {
+                                        "align": "center",
+                                        "text": "get repositories"
+                                    }
+                                },
+                                {
+                                    "ID": "1",
+                                    "typeID": "Icon",
+                                    "zOrder": "1",
+                                    "measuredW": "16",
+                                    "measuredH": "16",
+                                    "x": "109",
+                                    "y": "7",
+                                    "properties": {
+                                        "icon": {
+                                            "ID": "caret-right",
+                                            "size": "xsmall"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        "mockupH": "1803",
+        "mockupW": "1646",
+        "measuredW": "1686",
+        "measuredH": "1843",
+        "version": "1.0"
+    }
+}
