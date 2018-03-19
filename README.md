@@ -6,25 +6,21 @@ Como o Github não possui essa funcionalidade, Rick precisa de um sistema que co
 
 ## Tecnologias
 
-Na brainn.co não trabalhamos com uma linguagem ou framework apenas. Somos poliglotas e incentivamos o uso de novas tecnologias desde que o time concorde em conjunto e esteja preparado para assumir os riscos de ter que reimplementar utilizando alguma tecnologia mais tradicional em casos de incidentes.  
-Entretanto, nesse momento, estamos com um time pequeno e por enquanto nossas opções de linguagem são limitadas.  
-Escolha uma das linguagens abaixo para o desafio:
+Na brainn.co não trabalhamos com uma linguagem ou framework apenas. Somos poliglotas e incentivamos o uso de novas tecnologias desde que o time concorde em conjunto e esteja preparado para assumir os riscos de ter que implementar utilizando alguma tecnologia específica. Entretanto, nesse momento, estamos com um time pequeno e por enquanto nossas opções de linguagem são limitadas. Escolha entre as linguagens abaixo para o desafio:
 
-* Python
 * Javascript
+* Python
+* Ruby
+* Elixir
 * Golang
-* Java
-
-E para o front-end:
-
 * React
 * Vue
 
 ## O que vai ser avaliado?
 
-- Código limpo e coeso utilizando os princípios [S.O.L.I.D](https://www.google.com.br/search?q=principios+solid&oq=principios+solid).
+- Código limpo e coeso utilizando os princípios [SOLID](https://www.google.com.br/search?q=principios+solid&oq=principios+solid).
 - Simplicidade na implementação da solução
-- Design da API RESTful 
+- Design da API RESTful
 - Testes automatizados
 - Cobertura de testes
 - Linter/Análise estática do código
@@ -35,7 +31,7 @@ E para o front-end:
 
 ## Desafio
 
-O desafio consiste em desenvolver uma aplicação web que obtém todos os repositórios que um determinado usuário "curtiu" e salvar em um banco de dados local para permitir associar tags (labels ou hashtags) à cada repositório. Atualmente o Github não possui esse recurso e fica difícil classificar projetos open source interessantes. 
+O desafio consiste em desenvolver uma aplicação web que obtém todos os repositórios que um determinado usuário "curtiu" e salvar em um banco de dados local para permitir associar tags (labels ou hashtags) à cada repositório. Atualmente o Github não possui esse recurso e fica difícil classificar projetos open source interessantes.
 O projeto deve funcionar com o front-end utilizando consultas AJAX para transferir informações ao back-end.
 
 Há 3 user stories para entendimento sobre o que é necessário fazer:
