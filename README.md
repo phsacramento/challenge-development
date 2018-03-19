@@ -18,7 +18,7 @@ Na brainn.co não trabalhamos com uma linguagem ou framework apenas. Somos polig
 
 ## O que vai ser avaliado?
 
-- Código limpo e coeso utilizando os princípios [SOLID](https://www.google.com.br/search?q=principios+solid&oq=principios+solid).
+- Código limpo e coeso utilizando os princípios [SOLID](https://www.google.com.br/search?q=principios+solid&oq=principios+solid)
 - Simplicidade na implementação da solução
 - Design da API RESTful
 - Testes automatizados
