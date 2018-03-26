@@ -6,7 +6,7 @@ Como o Github não possui essa funcionalidade, Rick precisa de um sistema que co
 
 ## Tecnologias
 
-Na brainn.co não trabalhamos com uma linguagem ou framework apenas. Somos poliglotas e incentivamos o uso de novas tecnologias desde que o time concorde em conjunto e esteja preparado para assumir os riscos de ter que implementar utilizando alguma tecnologia específica. Entretanto, nesse momento, estamos com um time pequeno e por enquanto nossas opções de linguagem são limitadas. Escolha entre as linguagens abaixo para o desafio:
+Na brainn não trabalhamos com uma linguagem ou um framework apenas. Somos poliglotas e incentivamos o uso de novas tecnologias desde que o time concorde em conjunto e esteja preparado para assumir os riscos da implementação. Nesse momento, nossas opções são específicas do nosso time. Escolha entre as opções abaixo para o desafio:
 
 * Javascript
 * Python
