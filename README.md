@@ -1,8 +1,30 @@
 ## Overview
 
 O Github é uma rede social de programadores que possui uma funcionalidade interessante que permite curtir o repositório alheio. Trata-se de um botão escrito Star encontrado na página de cada repositório.  
-Rick é um usuário ativo do Github que está sempre buscando novos projetos curtindo os que acha interessantes. Ele gostaria de poder adicionar um label ou tag para marcar o repositório de modo que ele possa filtrar. Por exemplo, ele encontrou um repositório chamado `react` e gostaria de adicionar as tags *javascript* e *frontend*.  
+Rick é um usuário ativo do Github que está sempre buscando novos projetos curtindo os que acha interessantes. Ele gostaria de poder adicionar um label ou tag para marcar o repositório de modo que ele possa filtrar. Por exemplo, ele encontrou um repositório chamado `react` e gostaria de adicionar as tags `javascript` e `frontend`.  
 Como o Github não possui essa funcionalidade, Rick precisa de um sistema que consiga ajudá-lo com isso.
+
+## O que vai ser avaliado?
+
+Queremos avaliar sua capacidade em entregar um produto completo e com documentação mínima suficiente para outros desenvolvedores conseguirem contribuir com o projeto. É essencial que o `README.md` contenha as intruções para configurar e rodar o projeto, bastanto apenas um ctrl+c/ctrl+v no terminal do Linux e do OSX para conseguir rodar a aplicação.     
+Outros pontos que vamos considerar na avaliação:
+
+- Código bem escrito, limpo e coeso utilizando os princípios [SOLID](https://www.google.com.br/search?q=principios+solid&oq=principios+solid)
+- Implementação da solução
+- Design da API RESTful, utilizando corretamente os verbos `HTTP` e os devidos `STATUS CODE`
+- Testes automatizados do front-end e da API
+- Cobertura de testes
+- Linter/Análise estática do código de acordo com a linguagem
+- Documentação da API utilizando API Blueprint, **NÃO** pdf, txt ou qualquer outro formato
+- Conhecimento em Javascript, HTML5 e CSS3
+- Capacidade de implementar as telas **EXATAMENTE** como está no wireframe fornecido, considerando a posição dos elementos na tela
+- README.md bem escrito, curto e com os comandos necessários para rodar a aplicação
+
+## Instruções
+
+1. Crie um arquivo `README.md` descrevendo como configurar o projeto, contendo os comandos que devem ser executados para rodar o software e os testes;
+2. Crie um ZIP do projeto sem as dependências instaladas;
+3. Disponibilize o arquivo para download e nos envie a URL por email.
 
 ## Tecnologias
 
@@ -11,23 +33,9 @@ Na brainn não trabalhamos com uma linguagem ou um framework apenas. Somos polig
 * Javascript
 * Python
 * Ruby
-* Elixir
 * Golang
 * React
 * Vue
-
-## O que vai ser avaliado?
-
-- Código limpo e coeso utilizando os princípios [SOLID](https://www.google.com.br/search?q=principios+solid&oq=principios+solid)
-- Simplicidade na implementação da solução
-- Design da API RESTful
-- Testes automatizados
-- Cobertura de testes
-- Linter/Análise estática do código
-- Uso do ORM ou Queries SQL para trabalhar com banco de dados
-- Documentação da API utilizando API Blueprint, RAML ou Swagger
-- Conhecimento em Javascript, HTML5 e CSS3
-- Capacidade de implementar as telas a partir do wireframe
 
 ## Desafio
 
@@ -87,11 +95,6 @@ O usuário acessa o sistema, digita uma tag e aperta a tecla <Enter>. O sistema 
 
 * A busca precisa consultar o back-end
 
-## Instruções
-
-1. Crie um arquivo `README.md` descrevendo como configurar o projeto, contendo os comandos que devem ser executados para rodar o software e os testes;
-2. Crie um ZIP do projeto sem as dependências instaladas e sem o diretório .git;
-3. Envie por email o ZIP criado.
 
 ## Considerações Finais
 
