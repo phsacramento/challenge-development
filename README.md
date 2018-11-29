@@ -1,8 +1,6 @@
 ## Overview
 
-O Github é uma rede social de programadores que possui uma funcionalidade interessante que permite curtir o repositório alheio. Trata-se de um botão escrito Star encontrado na página de cada repositório.  
-Rick é um usuário ativo do Github que está sempre buscando novos projetos curtindo os que acha interessantes. Ele gostaria de poder adicionar um label ou tag para marcar o repositório de modo que ele possa filtrar. Por exemplo, ele encontrou um repositório chamado `react` e gostaria de adicionar as tags `javascript` e `frontend`.  
-Como o Github não possui essa funcionalidade, Rick precisa de um sistema que consiga ajudá-lo com isso.
+O Github é uma rede social de programadores que possui uma funcionalidade interessante que permite curtir o repositório alheio. Trata-se de um botão escrito Star encontrado na página de cada repositório. Rick é um usuário ativo do Github, que está sempre buscando novos projetos e curtindo aqueles que são interessantes. Ele gostaria de poder adicionar um label ou tag para marcar o repositório de modo que ele possa filtrar. Por exemplo, ele encontrou um repositório chamado `react` e gostaria de adicionar as tags `javascript` e `frontend`. Como o Github não possui essa funcionalidade, Rick precisa de um sistema que consiga ajudá-lo com essa tarefa de um modo simples.
 
 ## O que vai ser avaliado?
 
@@ -102,4 +100,4 @@ Entendemos as dificuldades do dia-a-dia para quem trabalha em ter que dedicar um
 
 Qualquer dúvida pode entrar em contato conosco.  
 
-Boa sorte!!!
+Boa sorte!
