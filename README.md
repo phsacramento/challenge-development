@@ -4,7 +4,7 @@ O Github é uma rede social de programadores que possui uma funcionalidade inter
 
 ## O que vai ser avaliado?
 
-Queremos avaliar sua capacidade em entregar um produto completo e com documentação mínima suficiente para outros desenvolvedores conseguirem contribuir com o projeto. É essencial que o `README.md` contenha as intruções para configurar e rodar o projeto, bastanto apenas um ctrl+c/ctrl+v no terminal do Linux e do OSX para conseguir rodar a aplicação.     
+Queremos avaliar sua capacidade em entregar um produto completo e com documentação mínima suficiente para outros desenvolvedores conseguirem contribuir com o projeto. É essencial que o `README.md` contenha as intruções para configurar e rodar o projeto, bastando apenas um ctrl+c/ctrl+v no terminal do Linux e do OSX para conseguir rodar a aplicação.     
 Outros pontos que vamos considerar na avaliação:
 
 - Código bem escrito, limpo e coeso utilizando os princípios [SOLID](https://www.google.com.br/search?q=principios+solid&oq=principios+solid)
