@@ -68,26 +68,26 @@ essa tag.
 
 ##### Back-end
 
-- deve ser implementada uma API REST utilizando JSON.
-- cada ação deve possuir sua rota específica respeitando a convenção de `http
+- Deve ser implementada uma API REST utilizando JSON.
+- Cada ação deve possuir sua rota específica respeitando a convenção de `http
    verb` e `status code`.
-- os repositórios e suas tags devem ser presistidos em um banco local.
-- o uso de Docker para configurar o ambiente é recomendado¹.
+- Os repositórios e suas tags devem ser persistidos em um banco local.
+- O uso de Docker para configurar o ambiente é recomendado¹.
 
 ##### Front-end
 
-- as telas devem respeitar as especificações dos wireframes:
+- As telas devem respeitar as especificações dos wireframes:
   * [home](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/01.png)
   * [loading](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/02.png)
   * [repositories list](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/03.png)
   * [manage tags](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/04.png)
   * [filter by tags](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/05.png)
-- os repositórios e suas tags devem ser persistidos no local storage do usuário.
-- o uso de libs como Redux, Vuex ou Flux é recomendado¹.
-- o uso de Docker para configurar o ambiente é recomendado¹.
+- Os repositórios e suas tags devem ser persistidos no local storage do usuário.
+- O uso de libs como Redux, Vuex ou Flux é recomendado¹.
+- O uso de Docker para configurar o ambiente é recomendado¹.
 
 
-**¹ recomendado mas não obrigatório.**
+¹ Recomendado mas não obrigatório.
 
 ## O que vai ser avaliado?
 
@@ -106,7 +106,7 @@ Outros pontos que vamos considerar na avaliação:
 - README.md bem escrito, curto e com os comandos necessários para rodar a aplicação
 - Design da API RESTful, utilizando corretamente os verbos `HTTP` e os devidos
 `STATUS CODE` **[backend]**
-- Documentação da API utilizando API Blueprint, **NÃO** pdf, txt ou qualquer
+- Documentação da API utilizando API Blueprint, não podendo ser utilizado pdf, txt ou qualquer
 outro formato **[backend]**
 - Conhecimento em Javascript, HTML5 e CSS3 **[frontend]**
 - Capacidade de implementar as telas **EXATAMENTE** como está no wireframe
@@ -135,9 +135,9 @@ comandos que devem ser executados para rodar o software e os testes;
 2. Crie um ZIP do projeto sem as dependências instaladas;
 3. Disponibilize o arquivo para download e nos envie a URL por email.
 
-Obs: Se você fez uso de algum Linter (esling, rubycop, credo, etc) envie o arquivo
+Obs: Se você fez uso de algum Linter (esling, rubycop, credo, etc.), envie o arquivo
 de configuração junto com o projeto e descreva qual linter está sendo utilizado no
-README do projeto.
+`README` do projeto.
 
 ## Considerações Finais
 
@@ -147,6 +147,4 @@ você não consiga completar o desafio, nos envie assim mesmo. Não queremos jul
 nossos candidatos, queremos apenas entender melhor a maneira como cada um pensa
 e age diante de um problema comum.
 
-Qualquer dúvida pode entrar em contato conosco.
-
-Boa sorte!
+Qualquer dúvida pode entrar em contato conosco. Boa sorte!
