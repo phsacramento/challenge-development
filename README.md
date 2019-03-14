@@ -66,6 +66,8 @@ essa tag.
 
 #### Requisitos específicos:
 
+Você deve escolher entre `back-end` e `front-end`. Se optar por entregar os dois desafios (`back-end` e `front-end`), vamos levar em conta como um ponto adicional.
+
 ##### Back-end
 
 - Deve ser implementada uma API REST utilizando JSON.
