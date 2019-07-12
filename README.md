@@ -20,10 +20,10 @@ You are an active GitHub user, who is always looking for new projects and enjoyi
 
 #### 1. Obtain repositories
 
-> As a user, I want to provide my username to retrieve all repositories. I like it so I can add my tags later.
+> As a user, I want to provide my username to retrieve all repositories so I can add, edit or delete my tags later.
 
 - You should get starred repositories using the GitHub Rest v3 API. Using the v4 API with GraphQL is a plus.
-- The information that must be retrieved is: Repository ID, repository name, description, HTTP URL and language.
+- The information that must be retrieved is: repository ID, repository name, description, HTTP URL, and language.
 
 #### 2. Add tags to repositories
 
@@ -33,7 +33,7 @@ You are an active GitHub user, who is always looking for new projects and enjoyi
 
 #### 3. Search repositories by tags
 
-> As a user, I want to be able to provide a tag and get the repositories that have this tag associated.
+> As a user, I want to be able to provide a tag so I can get the repositories that have this tag associated.
 
 - The search should work for queries with strings in half (e.g., by typing `doc`, the` docker` and `documentation` repositories must be returned).
 
@@ -58,10 +58,10 @@ In order to implement the user stories listed above, please, choose just one of 
 
 - The user interfaces (UI) must follow the design provided below:
 1. [home](wireframes/01.png)
-2. [loading](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/02.png)
-3. [repositories list](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/03.png)
-4. [manage tags](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/04.png)
-5. [filter by tags](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/05.png)
+2. [loading](wireframes/02.png)
+3. [repositories list](wireframes/03.png)
+4. [manage tags](wireframes/04.png)
+5. [filter by tags](wireframes/05.png)
 - Repositories and their tags must be persisted in the user's local storage.
 - The use of libs such as Redux, Vuex or Flux is recommended, but not mandatory.
 - Using Docker to configure the environment is recommended, but not mandatory.
