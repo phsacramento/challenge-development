@@ -57,7 +57,7 @@ In order to implement the user stories listed above, please, choose just one of 
 #### Front-end instructions
 
 - The user interfaces (UI) must follow the design provided below:
-1. [home](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/01.png)
+1. [home](wireframes/01.png)
 2. [loading](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/02.png)
 3. [repositories list](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/03.png)
 4. [manage tags](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/04.png)
