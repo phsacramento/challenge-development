@@ -23,7 +23,7 @@ You are an active GitHub user, who is always looking for new projects and enjoyi
 > As a user, I want to provide my username to retrieve all repositories. I like it so I can add my tags later.
 
 - You should get starred repositories using the GitHub Rest v3 API. Using the v4 API with GraphQL is a plus.
-- The information that must be retrieved is: Repository ID, repository, description, HTTP URL, and language.
+- The information that must be retrieved is: Repository ID, repository name, description, HTTP URL and language.
 
 #### 2. Add tags to repositories
 
