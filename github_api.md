@@ -1,19 +1,19 @@
-## Exemplo de Uso da API do Github
+# GitHub API - Example
 
-Dado o username gustavohenrique:
+Given the username `brainnco`:
 
-**API v3 via shell**
+**API v3 using shell**
 
 ```sh
-curl -slv https://api.github.com/users/gustavohenrique/starred?sort=updated&direction=desc
+curl -slv https://api.github.com/users/brainnco/starred?sort=updated&direction=desc
 ```
 
-**API v4 via Python**
+**API v4 using Python**
 ```python
 from gql import gql, Client
 from gql.transport.requests import RequestsHTTPTransport
 
-user = 'gustavohenrique'
+user = 'brainnco'
 query = ''
   query {
   user(login: "%s") {

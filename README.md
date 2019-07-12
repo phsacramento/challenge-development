@@ -1,152 +1,103 @@
-## Overview
+# Challenge: development
 
-O Github é uma rede social de programadores que possui uma funcionalidade
-interessante que permite curtir o repositório alheio. Trata-se de um botão
-escrito Star encontrado na página de cada repositório. Rick é um usuário ativo
-do Github, que está sempre buscando novos projetos e curtindo aqueles que são
-interessantes. Ele gostaria de poder adicionar um label ou tag para marcar o
-repositório de modo que ele possa filtrar. Por exemplo, ele encontrou um
-repositório chamado `react` e gostaria de adicionar as tags `javascript` e
-`frontend`. Como o Github não possui essa funcionalidade, Rick precisa de um
-sistema que consiga ajudá-lo com essa tarefa de um modo simples.
+## Introduction
 
-## Desafio
-
-O desafio consiste em desenvolver uma aplicação web que obtém todos os
-repositórios que um determinado usuário "curtiu". Uma vez obtidos os
-repositórios a applicação deve permitir o gerenciamento de tags (adicionar,
-editar e remover). Deve ser possivel filtrar os repositórios do usuário pelas
-tags. O sistema deve ter um mecanismo de sugestão de tags. Os critérios para
-sugestão de tags são de livre escolha do desafiante (linguagem do repositório,
-tags atribuidas a outros repositorios, ontras informações disponibilizadas pelo
-GitHub, etc).
-
-Requisitos:
-
- - Recuperar repositórios "starred" do GitHub de determinado usuário.
- - Gerenciar tags dos repositórios recuperados (adicionar, editar, excluir).
- - Filtrar repositórios por tags.
- - Sugestão de tags para os repositorios.
-
-#### Há 4 user stories para entendimento sobre o que é necessário fazer:
-
-##### 1. Obter repositórios remotos
-
-> Como usuário, eu quero fornecer meu username recuperar todos os repositórios
-que eu curti para depois conseguir adicionar minhas tags.
+GitHub is a social network of programmers that has an interesting functionality that allows you to ["star" other users repositories](https://help.github.com/en/articles/saving-repositories-with-stars). The users activate that just by pressing a button. But it has some limitations when we consider GitHub heavy users.
 
 
-* Deve obter os repositórios com star utilizando a API Rest v3 do Github.
-Utilizar a API v4 com GraphQL é um plus.
-* As informações que devem ser recuperadas são: ID do repositório, nome do
-repositório, descrição, URL HTTP e linguagem.
+## Use case
 
+You are an active GitHub user, who is always looking for new projects and enjoying those who are interesting. You would like to be able to add a label or tag to a repository so that it can be found later. For example, you've found a repository called `react` and you would like to add ` javascript` and `frontend` tags to it. Because GitHub does not have this functionality, you want to build a simple system that can help with this task.
 
-##### 2. Adicionar tags para os repositórios
+## Requirements
 
-> Como usuário, eu quero poder adicionar tags (labels) para cada repositório
-para eu poder efetuar uma busca por tag.
+- Retrieve starred repositories of a user's GitHub profile.
+- Manage retrieved repositories tags (i.e., add, edit, delete).
+- Filter repositories by tags.
+- Suggestion of tags for repositories.
 
-* Um repositório não pode ter tags duplicadas.
+## User stories
 
-##### 3. Buscar repositórios por tag
+#### 1. Obtain repositories
 
-> Como usuário, quero poder fornecer uma tag e obter os repositórios que possuem
-essa tag.
+> As a user, I want to provide my username to retrieve all repositories. I like it so I can add my tags later.
 
-* A busca deve funcionar para consultas com strings pela metade. (ex: ao filtrar
-  pela string `doc` tanto repositórios com a tag `docker` quanto com a tag
-`documentation` devem ser retornados)
+- You should get starred repositories using the GitHub Rest v3 API. Using the v4 API with GraphQL is a plus.
+- The information that must be retrieved is: Repository ID, repository name, description, HTTP URL and language.
 
-##### 4. Recomendação de tags
+#### 2. Add tags to repositories
 
-> Como usuário, quero receber recomendações de tags para meu repositório.
+> As a user, I want to be able to add tags to each repository so I can search them later by tag.
 
-* Cada repositório deve receber ao menos uma recomendação de tag.
+- A repository can not have duplicate tags.
 
-#### Requisitos específicos:
+#### 3. Search repositories by tags
 
-Você deve escolher entre `back-end` e `front-end`. Se optar por entregar os dois desafios (`back-end` e `front-end`), vamos levar em conta como um ponto adicional.
+> As a user, I want to be able to provide a tag and get the repositories that have this tag associated.
 
-##### Back-end
+- The search should work for queries with strings in half (e.g., by typing `doc`, the` docker` and `documentation` repositories must be returned).
 
-- Deve ser implementada uma API REST utilizando JSON.
-- Cada ação deve possuir sua rota específica respeitando a convenção de `http
-   verb` e `status code`.
-- Os repositórios e suas tags devem ser persistidos em um banco local.
-- O uso de Docker para configurar o ambiente é recomendado¹.
+#### 4. Tag recommendation
 
-##### Front-end
+> As a user, I want to receive tag recommendations for my repository.
 
-- As telas devem respeitar as especificações dos wireframes:
-  * [home](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/01.png)
-  * [loading](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/02.png)
-  * [repositories list](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/03.png)
-  * [manage tags](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/04.png)
-  * [filter by tags](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/05.png)
-- Os repositórios e suas tags devem ser persistidos no local storage do usuário.
-- O uso de libs como Redux, Vuex ou Flux é recomendado¹.
-- O uso de Docker para configurar o ambiente é recomendado¹.
+- Each repository should receive at least one tag recommendation.
 
+## Exercise
 
-¹ Recomendado mas não obrigatório.
+In order to implement the user stories listed above, please, choose just one of the following instructions: back-end, or front-end. If you want to make both, we will consider this an extra point and effort, but it's *not* mandatory.
 
-## O que vai ser avaliado?
+#### Back-end instructions
 
-Queremos avaliar sua capacidade em entregar um produto completo e com
-documentação mínima suficiente para outros desenvolvedores conseguirem
-contribuir com o projeto. É essencial que o `README.md` contenha as intruções
-para configurar e rodar o projeto, bastando apenas um ctrl+c/ctrl+v no terminal
-do Linux e do OSX para conseguir rodar a aplicação.
+- Your REST API must be implemented using JSON.
+- Each action must have its specific route respecting the convention of `http verb` and `status code`.
+- Repositories and their tags must be persisted at a local bank.
+- Using Docker to configure the environment is recommended, but not mandatory.
 
-Outros pontos que vamos considerar na avaliação:
+#### Front-end instructions
 
-- Código bem escrito, limpo e coeso.
-- Implementação da solução.
-- Testes automatizados (Cobertura de testes).
-- Linter/Análise estática do código.
-- README.md bem escrito, curto e com os comandos necessários para rodar a aplicação
-- Design da API RESTful, utilizando corretamente os verbos `HTTP` e os devidos
-`STATUS CODE` **[backend]**
-- Documentação da API utilizando API Blueprint, não podendo ser utilizado pdf, txt ou qualquer
-outro formato **[backend]**
-- Conhecimento em Javascript, HTML5 e CSS3 **[frontend]**
-- Capacidade de implementar as telas **EXATAMENTE** como está no wireframe
-fornecido, considerando a posição dos elementos na tela **[frontend]**
+- The user interfaces (UI) must follow the design provided below:
+1. [home](wireframes/01.png)
+2. [loading](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/02.png)
+3. [repositories list](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/03.png)
+4. [manage tags](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/04.png)
+5. [filter by tags](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/05.png)
+- Repositories and their tags must be persisted in the user's local storage.
+- The use of libs such as Redux, Vuex or Flux is recommended, but not mandatory.
+- Using Docker to configure the environment is recommended, but not mandatory.
 
-## Tecnologias
+## What we will evaluate
 
-Na brainn não trabalhamos com uma linguagem ou um framework apenas. Somos
-poliglotas e incentivamos o uso de novas tecnologias desde que o time concorde
-em conjunto e esteja preparado para assumir os riscos da implementação. Nesse
-momento, nossas opções são específicas do nosso time. Escolha entre as opções
-abaixo para o desafio:
+We want to evaluate your ability to deliver a simple product with sufficient documentation for other developers to actively contribute to the project later.
 
-* Elixir
-* Ruby
-* Golang
-* Nodejs
-* Python
-* React
-* Vue
+#### For both back-end and front-end exercises
 
-## Instruções para entrega
+1. `README.md` well written, short and with the commands needed to run the application.
+2. Well written code, clean and cohesive.
+3. Implementation of the solution.
+4. Automated testing (i.e., coverage of the tests).
+5. Linter/static code analysis.
 
-1. Crie um arquivo `README.md` descrevendo como configurar o projeto, contendo os
-comandos que devem ser executados para rodar o software e os testes;
-2. Crie um ZIP do projeto sem as dependências instaladas;
-3. Disponibilize o arquivo para download e nos envie a URL por email.
+#### For back-end exercises
 
-Obs: Se você fez uso de algum Linter (esling, rubycop, credo, etc.), envie o arquivo
-de configuração junto com o projeto e descreva qual linter está sendo utilizado no
-`README` do projeto.
+6. RESTful API design, correctly using the `HTTP` verbs and the proper `Status Code`.
+7. API documentation using the web (e.g., [Blueprint](https://apiblueprint.org/), [Swagger](https://swagger.io/), [Postman](https://www.getpostman.com/), etc.), not being able to use `pdf`, `txt` or any other file format.
 
-## Considerações Finais
+#### For front-end exercises
 
-Entendemos as dificuldades do dia-a-dia para quem trabalha em ter que dedicar um
-tempo para resolver esse tipo de desafio. Por isso pedimos para que mesmo que
-você não consiga completar o desafio, nos envie assim mesmo. Não queremos julgar
-nossos candidatos, queremos apenas entender melhor a maneira como cada um pensa
-e age diante de um problema comum.
+6. Knowledge in Javascript, HTML5 and CSS3.
+7. Ability to implement the screens exactly as it is in the wireframes provided, considering the position of the elements on the screen.
 
-Qualquer dúvida pode entrar em contato conosco. Boa sorte!
+## Programming language and/or frameworks
+
+You may choose the technology of your choice. Only for your information, we disclose the following technologies that we are used to develop.
+- Elixir
+- Ruby on Rails
+- Python
+- React
+- Flutter
+
+## How to share your exercise with us
+1. Create a `README.md` file describing how to configure the project, containing the commands that must be run to run the software and tests.
+2. Open a new Pull Request to the `master` branch of the private repository the we have provided through our admin.
+3. If you have made use of any Linter (esling, rubycop, creed, etc.), send the file together with the project.
