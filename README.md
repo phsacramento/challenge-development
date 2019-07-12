@@ -58,10 +58,10 @@ In order to implement the user stories listed above, please, choose just one of 
 
 - The user interfaces (UI) must follow the design provided below:
 1. [home](wireframes/01.png)
-2. [loading](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/02.png)
-3. [repositories list](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/03.png)
-4. [manage tags](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/04.png)
-5. [filter by tags](https://github.com/Danielwsx64/challenge-development/blob/master/wireframes/05.png)
+2. [loading](wireframes/02.png)
+3. [repositories list](wireframes/03.png)
+4. [manage tags](wireframes/04.png)
+5. [filter by tags](wireframes/05.png)
 - Repositories and their tags must be persisted in the user's local storage.
 - The use of libs such as Redux, Vuex or Flux is recommended, but not mandatory.
 - Using Docker to configure the environment is recommended, but not mandatory.
