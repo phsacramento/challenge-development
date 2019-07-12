@@ -51,7 +51,7 @@ In order to implement the user stories listed above, please, choose just one of 
 
 - Your REST API must be implemented using JSON.
 - Each action must have its specific route respecting the convention of `http verb` and `status code`.
-- Repositories and their tags must be persisted at a local bank.
+- Repositories and their tags must be persisted in the user's local storage.
 - Using Docker to configure the environment is recommended, but not mandatory.
 
 #### Front-end instructions
