@@ -92,6 +92,6 @@ We want to evaluate your ability to deliver a simple product with sufficient doc
 You may choose the programming language of your preference.
 
 ## How to share your exercise with us
-1. Create a `README.md` file describing how to configure the project, containing the commands that must be run to run the software and the tests.
-2. Open a new Pull Request to the `master` branch of the private repository that we have invited you to contribute.
-3. If you have made use of any Linter (esling, rubycop, creed, etc.), send the file together with the project.
+1. **Create a _`README.md`_ file describing how to configure the project, containing the commands that must be run to run the software and the tests.**
+2. **Open a new Pull Request to the _`master`_ branch of the private repository that we have invited you to contribute.**
+3. **If you have made use of any Linter (esling, rubycop, creed, etc.), send the file together with the project.**
